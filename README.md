@@ -1,4 +1,4 @@
-# GraphQL Swiss Knife
+# GQL-FORGE
 
 ![code style](https://img.shields.io/badge/code--style-JS%20STANDARD-yellow.svg)
 
