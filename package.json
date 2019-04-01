@@ -1,0 +1,45 @@
+{
+  "name": "gql-forge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/bundle.js",
+    "build": "webpack",
+    "dev": "webpack & node bin/bundle.js"
+  },
+  "bin": {
+    "gql-forge": "./bin/bundle.js"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "cli-spinners": "^2.0.0",
+    "inquirer": "^6.2.2",
+    "ora": "^3.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "nodemon": "^1.18.10",
+    "standard": "^12.0.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "src/*"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorstein/gql-forge.git"
+  },
+  "author": "Alfonso Gomez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victorstein/gql-forge/issues"
+  },
+  "homepage": "https://github.com/victorstein/gql-forge#readme"
+}
